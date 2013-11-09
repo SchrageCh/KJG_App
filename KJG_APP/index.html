@@ -1,35 +1,148 @@
+
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Schrage">
 
-<html manifest="cache.manifest">
-<head>
+    <title>KjG Altenfurt</title>
 
-	<title>KjG Altenfurt</title>
-	<link rel="stylesheet" href="css/reset.css" type="text/css">
-    <link rel="stylesheet" href="css/app.css"  type="text/css">
-    <link rel="stylesheet" href="css/skin.css" type="text/css">
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1"/>
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	
-	<link rel="apple-touch-icon-precomposed" href="bilder/icon-ipad.png" sizes="72x72" />
-	<link rel="apple-touch-icon-precomposed" href="bilder/icon-iphone-retina.png" sizes="114x114" />
-	<link rel="apple-touch-icon-precomposed" href="bilder/icon-iphone.png" />
-	
-</head>
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
 
-<body>
-asdfasdf
-<!-- 
-	<ul id="todo-liste">
-		<!-- Wird per Nutzereingabe befüllt -->
-	<!-- </ul>
+    <!-- Custom styles for this template -->
+    <link href="./css/navbar-static-top.css" rel="stylesheet">
 
-	<form id="add">
-		<input type="text" name="add-task" placeholder="Aufgabe eingeben &amp; Go dr&uuml;cken">
-	</form>
+  </head>
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
--->
-</body>
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">KjG Altenfurt</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<div class="panel-heading">Veranstaltungen</div>
+				<div class="panel-body">
+					<ul class="list-group">
+						<div class="list-group-item">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseJanuar">Januar</a>
+						</div>
+						<div id="collapseJanuar" class="panel-collapse collapse out">
+							<div class="panel-body">
+								Januar ist schön. Ich mag Blumen. Blumen sind gesund.
+							</div>
+						</div>
+						<div class="list-group-item">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFebruar">Februar</a>
+						</div>
+						<div id="collapseFebruar" class="panel-collapse collapse out">
+							<div class="panel-body">
+								Januar ist schön. Ich mag Blumen. Blumen sind gesund.
+							</div>
+						</div>
+						<div class="list-group-item">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseMärz">März</a>
+						</div>
+						<div id="collapseMärz" class="panel-collapse collapse out">
+							<div class="panel-body">
+								Januar ist schön. Ich mag Blumen. Blumen sind gesund.
+							</div>
+						</div>
+						<div class="list-group-item">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseApril">April</a>
+						</div>
+						<div id="collapseApril" class="panel-collapse collapse out">
+							<div class="panel-body">
+								Januar ist schön. Ich mag Blumen. Blumen sind gesund.
+							</div>
+						</div>
+						<div class="list-group-item">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseMai">Mai</a>
+						</div>
+						<div id="collapseMai" class="panel-collapse collapse out">
+							<div class="panel-body">
+								Januar ist schön. Ich mag Blumen. Blumen sind gesund.
+							</div>
+						</div>
+						<div class="list-group-item">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseJuni">Juni</a>
+						</div>
+						<div id="collapseJuni" class="panel-collapse collapse out">
+							<div class="panel-body">
+								Januar ist schön. Ich mag Blumen. Blumen sind gesund.
+							</div>
+						</div>
+						<div class="list-group-item">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseJuli">Juli</a>
+						</div>
+						<div id="collapseJuli" class="panel-collapse collapse out">
+							<div class="panel-body">
+								Januar ist schön. Ich mag Blumen. Blumen sind gesund.
+							</div>
+						</div>
+						<div class="list-group-item">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseAugust">August</a>
+						</div>
+						<div id="collapseAugust" class="panel-collapse collapse out">
+							<div class="panel-body">
+								Januar ist schön. Ich mag Blumen. Blumen sind gesund.
+							</div>
+						</div>
+						<div class="list-group-item">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeptember">September</a>
+						</div>
+						<div id="collapseSeptember" class="panel-collapse collapse out">
+							<div class="panel-body">
+								Januar ist schön. Ich mag Blumen. Blumen sind gesund.
+							</div>
+						</div>
+						<div class="list-group-item">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOktober">Oktober</a>
+						</div>
+						<div id="collapseOktober" class="panel-collapse collapse out">
+							<div class="panel-body">
+								Januar ist schön. Ich mag Blumen. Blumen sind gesund.
+							</div>
+						</div>
+						<div class="list-group-item">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseNovember">November</a>
+						</div>
+						<div id="collapseNovember" class="panel-collapse collapse out">
+							<div class="panel-body">
+								Januar ist schön. Ich mag Blumen. Blumen sind gesund.
+							</div>
+						</div>
+						<div class="list-group-item">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseDezember">Dezember</a>
+						</div>
+						<div id="collapseDezember" class="panel-collapse collapse out">
+							<div class="panel-body">
+								Januar ist schön. Ich mag Blumen. Blumen sind gesund.
+							</div>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
 </html>
